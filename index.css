@@ -1,0 +1,117 @@
+/*=============== VARIABLES ===============*/
+
+:root {
+  --accent-color: #a8858f;
+  --black: black;
+  --white: white;
+  --light-blue: #22D4FD;
+}
+
+/*=============== BASE ===============*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 16px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+p {
+  line-height: 1.5rem;
+  margin-bottom: 0.7rem;
+  color: var(--white);
+}
+
+h1 {
+  line-height: 2rem;
+  color: var(--white);
+}
+
+h2 {
+  line-height: 2rem;
+  font-weight: normal;
+}
+
+button {
+  background-color: ciano;
+  color: white;
+  border: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 235px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+  width: 1100px;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 58px;
+  width: 615px;
+  height: 482px;
+}
+
+.text-header {
+  font-family: "Krona One", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+}
+
+.text-header > strong {
+  font-family: "Krona One", sans-serif;
+  color: var(--light-blue);
+}
+
+.text-paragraph {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.container-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 36px;
+  width: 270px;
+  height: 79px;
+  background-color: var(--light-blue);
+  border-radius: 16px;
+  text-align: center;
+  align-content: center;
+  color: var(--black);
+  font-weight: 600;
+}
+
+.profile-image {
+  width: 420px;
+  height: 480px;
+  border-radius: 16px 0px 0px 0px;
+}
